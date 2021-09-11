@@ -1,0 +1,42 @@
+.HorizontalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Menu {
+  font-size: 40px;
+  padding: 0px;
+}
+.Icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: white;
+  z-index: 4;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 28px;
+}
+.Dropdown > ul {
+  list-style-type: none;
+  padding: 6%;
+}
+.Logo {
+  margin-left: auto;
+  z-index: 4;
+  right: 1%;
+  position: absolute;
+}
+#Nav,
+.Dropdown > ul > li > a,
+.Logo > a {
+  color: white;
+}
+.Dropdown {
+  position: relative;
+  z-index: 2;
+  background-color: rgb(199, 222, 199);
+}

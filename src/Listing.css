@@ -1,0 +1,9 @@
+.Image {
+  max-width: 400px;
+  object-fit: contain;
+}
+.Listing {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
